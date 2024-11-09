@@ -1,20 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Profile</title>
-    <meta name="description" content="A minimalist solution for your profile and newsletter.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
-    
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900">
-    <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css?version=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/styles/main.css?version=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css?version=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/styles/animations.css?version=1.0">
-    <link rel="shortcut icon" href="assets/IMG_0058.JPG" type="image/x-icon" />
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>Profile</title>
+        <meta name="description" content="A minimalist solution for your profile and newsletter.">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
 
-    <!-- LinkedIn Button Style -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900">
+        
+        <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css?version=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/styles/main.css?version=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css?version=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/styles/animations.css?version=1.0">
+        
+        <link rel="shortcut icon" href="assets/IMG_0058.JPG" type="image/x-icon" />
+    </head>
+    
+    <body>
+        <div class="pulldown" id="profile">
+            <div class="profile" style="background-image: url(assets/IMG_0058.JPG);">
+            </div>
+            
+        </div>
+
+        <section id="copy">
+            <div class="grid">
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+            </div>
+
+            <div class="content" id="intro">
+                <nav class="row">
+                    <a class="current scroll" href="#intro">Intro</a>
+                    <a href="#">Contact</a>
+                    <a class="scroll" href="#newsletter">Projects</a>
+                </nav>
+
+                <div class="row copy">
+                    <h1>   David Maduka
+                    <h3>PROFESSIONAL SUMMARY...
+
+<p>I am a Self-motivated Cyber Security student with over one year of IT experience and active involvement in cyber security in the Dallas-Fort Worth community. Passionate about safeguarding digital assets and staying updated on emerging threats. Committed to continuous learning and growth within the Tech field.</p>
+
+                </div>
+
+
+                        
+                <div class="row actions">
+                    <a class="button red" href="mailto:davidmaduka19@gmail.com?Subject=Hello%20David">Send Me An Email</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="dark pullup" id="newsletter">
+            <div class="grid">
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+            </div>
+
+            <div class="content">
+                <nav class="animated fade-up">
+                    <a class="scroll" href="#intro">Intro</a>
+                    <a href="#">Contact</a>
+                    <a class="scroll current" href="#newsletter">Projects</a>
+                </nav>
+
+                <div class="row copy animated fade-up">
+                    <h2>Experience & Skills.</h2>
+                    <p>With experience as an IT Specialist and Support Engineer, I have developed expertise in Networking & System Administration, Python, Linux, and Mobile Device Management (MDM). I also have knowledge in network security, ethical hacking, and access control systems. My skill set includes system automation, ticketing systems, and troubleshooting, along with strong analytical and problem-solving abilities. Additionally, I have excellent communication and interpersonal skills and a solid background in providing customer service and technical support.</p>
+                </div>
+                <h2>Projects</h2>
+
+<h3>Open Donation Software for International Small Charities – Founder</h3>
+<p>Designed free/low-cost software for small charities to accept international donations securely, enhancing their fundraising capabilities.</p>
+
+<h3>Nembyte (AI Consulting Firm) – Contributor</h3>
+<p>Worked with Nembyte to optimize business operations using custom Machine Learning solutions, providing clients with actionable insights and accurate predictions.</p>
+
+<h3>Volunteer IT Services</h3>
+<p>Assisted small businesses with IT support, including:</p>
+<p>Creating engaging social media campaigns and online menus.</p>
+<p>Developing business websites.</p>  
+<p>Setting up point-of-sale systems and maintaining hardware.</p>
+ <ul>
+    
+
+
+
+
+                <div class="row actions">
+                    <a class="button white animated swing open" href="#subscribe">My Linkeldn</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="full closed" id="subscribe">
+            <div class="grid">
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+            </div>
+
+            <a class="close open" href="#subscribe"></a>
+
+            <span class="message"></span>
+
+            <div class="content">
+                <form class="row" id="mailchimp-form" action="assets/works/post-subscribe.php" method="post">
+                    <input type="email" name="mc-email" id="mc-email" placeholder="you@youremail.com">
+                </form>
+            </div>
+
+            <span class="instruct">Hit Enter to Submit</span>
+        </section>
+
+        <script type="text/javascript" src="assets/scripts/jquery.js"></script>
+        <script type="text/javascript" src="assets/scripts/main.js"></script>
+    </body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Redirect</title>
     <style>
         .button {
             display: inline-block;
@@ -29,73 +175,9 @@
         }
     </style>
 </head>
-
 <body>
-    <div class="pulldown" id="profile">
-        <div class="profile" style="background-image: url(assets/IMG_0058.JPG);"></div>
+    <div class="row actions">
+        <a class="button" href="https://www.linkedin.com/in/david-maduka/" target="_blank">My LinkedIn</a>
     </div>
-
-    <section id="copy">
-        <div class="grid">
-            <div class="line"></div> <!-- Add your lines as needed here -->
-        </div>
-
-        <div class="content" id="intro">
-            <nav class="row">
-                <a class="current scroll" href="#intro">Intro</a>
-                <a href="#">Contact</a>
-                <a class="scroll" href="#newsletter">Projects</a>
-            </nav>
-
-            <div class="row copy">
-                <h1>David Maduka</h1>
-                <h3>PROFESSIONAL SUMMARY...</h3>
-                <p>I am a self-motivated Cyber Security student with over one year of IT experience and active involvement in cyber security in the Dallas-Fort Worth community...</p>
-            </div>
-
-            <div class="row actions">
-                <a class="button red" href="mailto:davidmaduka19@gmail.com?Subject=Hello%20David">Send Me An Email</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="dark pullup" id="newsletter">
-        <div class="grid">
-            <div class="line"></div> <!-- Add your lines as needed here -->
-        </div>
-
-        <div class="content">
-            <nav class="animated fade-up">
-                <a class="scroll" href="#intro">Intro</a>
-                <a href="#">Contact</a>
-                <a class="scroll current" href="#newsletter">Projects</a>
-            </nav>
-
-            <div class="row copy animated fade-up">
-                <h2>Experience & Skills</h2>
-                <p>With experience as an IT Specialist and Support Engineer, I have developed expertise in Networking & System Administration, Python, Linux, and Mobile Device Management (MDM)...</p>
-            </div>
-
-            <h2>Projects</h2>
-            <h3>Open Donation Software for International Small Charities – Founder</h3>
-            <p>Designed free/low-cost software for small charities to accept international donations securely...</p>
-
-            <h3>Nembyte (AI Consulting Firm) – Contributor</h3>
-            <p>Worked with Nembyte to optimize business operations using custom Machine Learning solutions...</p>
-
-            <h3>Volunteer IT Services</h3>
-            <p>Assisted small businesses with IT support, including:</p>
-            <ul>
-                <li>Creating engaging social media campaigns and online menus.</li>
-                <li>Developing business websites.</li>
-                <li>Setting up point-of-sale systems and maintaining hardware.</li>
-            </ul>
-
-            <div class="row actions">
-                <!-- LinkedIn Button -->
-                <a class="button" href="https://www.linkedin.com/in/david-maduka/" target="_blank">My LinkedIn</a>
-            </div>
-        </div>
-    </section>
 </body>
 </html>
