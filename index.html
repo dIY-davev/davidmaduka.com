@@ -119,24 +119,18 @@
               
             <a class="close open" href="#subscribe"></a>
 
-<span class="message"></span>
+            <span class="message"></span>
 
-<div class="content">
-  <span class="instruct">Hit Enter to Submit (Deactivated)</span>
-</div>
+            <div class="content">
+                <form class="row" id="mailchimp-form" action="assets/works/post-subscribe.php" method="post">
+                    <input type="email" name="mc-email" id="mc-email" placeholder="you@youremail.com">
+                </form>
+            </div>
 
-<script type="text/javascript" src="assets/scripts/jquery.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-  // Handle Enter key press on the element (adjust selector if needed)
-  $(".content").keypress(function(event) {
-    if (event.which === 13) { // Enter key pressed
-      // Redirect the user to LinkedIn profile using window.location.href
-      window.location.href = "https://www.linkedin.com/in/david-maduka/";
-      return false; // Prevent default form submission behavior
-    }
-  });
-});
-</script>
-</body>
+            <span class="instruct">Hit Enter to Submit</span>
+        </section>
+
+        <script type="text/javascript" src="assets/scripts/jquery.js"></script>
+        <script type="text/javascript" src="assets/scripts/main.js"></script>
+    </body>
 </html>
