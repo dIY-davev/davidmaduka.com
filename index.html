@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         
         <title>Profile</title>
-        <meta name="description" content="Profile of David Maduka.">
+        <meta name="description" content="A minimalist solution for your profile and newsletter.">
         
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
 
@@ -110,11 +110,33 @@
 <p>Creating engaging social media campaigns and online menus.</p>
 <p>Developing business websites.</p>  
 <p>Setting up point-of-sale systems and maintaining hardware.</p>
+ <ul>
     
 
-<div class="close open">
-    <a class="button blue animated swing" href="https://www.linkedin.com/in/david-maduka" target="_blank">Connect on LinkedIn</a>
+
+
+
+              
+            <a class="close open" href="#subscribe"></a>
+
+<span class="message"></span>
+
+<div class="content">
+  <span class="instruct">Hit Enter to Submit (Deactivated)</span>
 </div>
-</section>
+
+<script type="text/javascript" src="assets/scripts/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  // Handle Enter key press on the element (adjust selector if needed)
+  $(".content").keypress(function(event) {
+    if (event.which === 13) { // Enter key pressed
+      // Redirect the user to LinkedIn profile using window.location.href
+      window.location.href = "https://www.linkedin.com/in/david-maduka/";
+      return false; // Prevent default form submission behavior
+    }
+  });
+});
+</script>
 </body>
 </html>
