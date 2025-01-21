@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Picture with Circle</title>
     <style>
+        body {
+            display: flex;
+            justify-content: flex-end; /* Align the profile picture to the right */
+            padding: 20px; /* Optional spacing around the content */
+        }
+
         .profile-container {
             position: relative;
             display: inline-block;
@@ -24,11 +26,11 @@
 
         .circle-overlay {
             position: absolute;
-            top: 0;
-            right: 0;
-            width: 40px;
-            height: 40px;
-            background-color: #3498db; /* Circle color */
+            top: -10px; /* Adjust to make the circle slightly above the image */
+            right: -10px; /* Adjust for spacing from the top-right edge */
+            width: 50px; /* Larger circle */
+            height: 50px;
+            background-color: #2ecc71; /* Green color */
             border-radius: 50%;
             border: 2px solid white; /* Optional border */
         }
